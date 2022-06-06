@@ -3,7 +3,6 @@
 
 def multiple_returns(sentence):
     """Returns a tuple with length of string and first char."""
-    length = len(sentence)
-    if length = 0:
-        return None
-    print("Length: {:d} - First character: {}".format(length, sentence[0]))
+    if sentence == "":
+        return (0, None)
+    return (len(sentence), sentence[0])
