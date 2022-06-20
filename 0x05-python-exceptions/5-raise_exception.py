@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
 
-def raise_execution():
+def raise_exception():
     """Functiopn that raises a type exception."""
-    raise TypeError("Exception raised")
+    raise TypeError
