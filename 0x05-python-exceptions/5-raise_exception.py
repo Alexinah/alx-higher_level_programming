@@ -3,4 +3,4 @@
 
 def raise_execution():
     """Functiopn that raises a type exception."""
-    raise TypeError
+    raise TypeError("Exception raised")
