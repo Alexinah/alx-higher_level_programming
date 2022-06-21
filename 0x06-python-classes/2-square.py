@@ -5,8 +5,11 @@
 class Square:
     """ Defines a square."""
     def __init__(self, size=0):
-        """ Initializes a private attribute. """
+        """ Initializes a private attribute.
 
+        Args:
+        size (int): The size of the new square.
+        """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
